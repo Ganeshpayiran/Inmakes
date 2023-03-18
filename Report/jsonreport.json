@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To login the amazon app",
+        "description": "",
+        "id": "to-check-the-login-functionality-of-amazon-application;to-login-the-amazon-app",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1856532400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To launch the chrome browser and maximise window",
+            "match": {
+              "location": "AmozonLogin.to_launch_the_chrome_browser_and_maximise_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7919559700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the url of amazon app",
+            "match": {
+              "location": "AmozonLogin.to_launch_the_url_of_amazon_app()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1562411400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To click the login button",
+            "match": {
+              "location": "AmozonLogin.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 212406400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass the valid email in email field",
+            "match": {
+              "location": "AmozonLogin.to_pass_the_valid_email_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1028428900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the password in password field",
+            "match": {
+              "location": "AmozonLogin.to_pass_the_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11785300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click signin button",
+            "match": {
+              "location": "AmozonLogin.to_click_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To close the browser",
+            "match": {
+              "location": "AmozonLogin.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check the login functionality of amazon application",
+    "description": "",
+    "id": "to-check-the-login-functionality-of-amazon-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Final.feature",
+    "tags": []
+  }
+]
